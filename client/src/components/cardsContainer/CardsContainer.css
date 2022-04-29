@@ -1,0 +1,18 @@
+.cardsContainer {
+  flex: 1;
+  width: 78vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.cardsContainer::-webkit-scrollbar {
+  width: 5px;
+}
+
+.cardsContainer::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}

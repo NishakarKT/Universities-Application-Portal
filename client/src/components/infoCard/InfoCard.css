@@ -1,0 +1,75 @@
+.infoCard {
+  display: flex;
+  width: 30%;
+  min-width: 200px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  margin: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+  animation: infoCard__appear 0.3s ease-out 1;
+}
+
+.infoCard > marquee {
+  color: #4569a3;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.infoCard > h2 {
+  color: #4569a3;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.infoCard > h3 {
+  color: #8f9294;
+  font-size: 13px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.infoCard > h4 {
+  color: #ff8b8b;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.infoCard > hr {
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 1px;
+  background-color: lightgray;
+  margin-top: 20px;
+}
+
+.infoCard > button {
+  flex: 1;
+  width: 100%;
+  padding: 15px;
+  font-weight: 600;
+  color: #007afe;
+  background-color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.infoCard > button:hover {
+  filter: brightness(90%);
+}
+
+@keyframes infoCard__appear {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+}

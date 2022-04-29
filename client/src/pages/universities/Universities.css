@@ -1,0 +1,24 @@
+.universities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120%;
+}
+
+.universities > .MuiSvgIcon-root {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  color: white;
+  background-color: #202b3b;
+  font-size: 50px;
+  padding: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.universities > .MuiSvgIcon-root:hover {
+  transform: scale(1.05);
+  filter: brightness(130%);
+}
